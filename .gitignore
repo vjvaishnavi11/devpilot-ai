@@ -1,0 +1,52 @@
+# Java
+
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven
+
+.mvn/
+dependency-reduced-pom.xml
+
+# IntelliJ IDEA
+
+.idea/
+*.iml
+
+# VS Code
+
+.vscode/
+
+# Logs
+
+*.log
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+
+.env
+.env.*
+
+# Node
+
+node_modules/
+
+# Build
+
+dist/
+build/
+
+# Docker
+
+docker-data/
+
+# Spring Boot
+
+application-local.yml
