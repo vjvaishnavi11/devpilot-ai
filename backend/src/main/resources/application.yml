@@ -3,9 +3,9 @@ spring:
     name: devpilot-ai
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/devpilot
-    username: postgres
-    password: vjcool
+    url: jdbc:postgresql://{datasource.host}:${datasource.port}/${datasource.database-name}
+    username: ${datasource.user}
+    password: ${datasource.password}
 
   jpa:
     hibernate:
